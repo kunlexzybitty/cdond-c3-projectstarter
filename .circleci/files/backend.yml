@@ -43,11 +43,11 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub backend-${ID}
-      NetworkInterfaces: 
-      - AssociatePublicIpAddress: "true"
-        DeviceIndex: "0"
-        GroupSet: 
-          - Ref: "InstanceSecurityGroup"
+      # NetworkInterfaces: 
+      # - AssociatePublicIpAddress: "true"
+      #   DeviceIndex: "0"
+      #   GroupSet: 
+      #     - Ref: "InstanceSecurityGroup"
 
 Outputs: 
   EC2PublicIPAddress: 
