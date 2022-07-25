@@ -32,7 +32,6 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      VpcId: vpc-06aaf9cda22e87a2c
       SecurityGroups:
         - Ref: InstanceSecurityGroup
       SecurityGroupIds:
