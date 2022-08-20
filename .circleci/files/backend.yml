@@ -50,4 +50,4 @@ Outputs:
     Description: The backend instace public ip address
     Value: !GetAtt EC2Instance.PublicIp
     Export:
-      Name: "UdaPeople-EC2PublicIPAddress"
+      Name: "UdaPeople-EC2PublicIPAddress-${ID}"
