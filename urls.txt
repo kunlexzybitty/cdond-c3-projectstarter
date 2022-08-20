@@ -1,3 +1,3 @@
 [URL01] = https://github.com/kunlexzybitty/cdond-c3-projectstarter
 
-[URL02] = http://udapeople-70c3af4.s3-website-us-east-1.amazonaws.com/#/employees
+[URL02] = http://udapeople-cbf0d9f.s3-website-us-east-1.amazonaws.com/#/employees
